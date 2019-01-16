@@ -1,0 +1,14 @@
+*~
+client
+server
+*.o
+outputs/*.xml
+CMakeFiles
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+install_manifest.txt
+Debug/**
+.vs/**
+x64/**
+x32/**

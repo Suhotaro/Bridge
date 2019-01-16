@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\app">
+      <UniqueIdentifier>{5caa2f9a-7d40-47c4-b91b-4c2ada80fa61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\app\parser">
+      <UniqueIdentifier>{558275a2-cbff-4b5c-9ca7-42133ccadb14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\app\net">
+      <UniqueIdentifier>{33b3949b-cd0c-4f5f-bfe7-9494cf2e895b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\app\parser\option_reader">
+      <UniqueIdentifier>{4f38f26e-e375-4885-9e15-75472b2d414d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\app\parser\parser_console">
+      <UniqueIdentifier>{65068d78-d54e-4629-8eb3-9f967f2df583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\app\parser\parser_file">
+      <UniqueIdentifier>{e0efa4dd-d367-4d78-8f7c-dd52c143bc47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{6d212250-d244-4255-9125-5107571a5cef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\app\algotihm">
+      <UniqueIdentifier>{46e09374-e2e4-4eaa-9c31-5818b3a54fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\app\net\bridge">
+      <UniqueIdentifier>{d6584689-c7c5-46b7-bc76-adfef6c3517b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\app\net\port">
+      <UniqueIdentifier>{836a0fe3-0d7a-4235-baa1-c96059e07e57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="data.txt">
+      <Filter>resources</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="app.h">
+      <Filter>src\app</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>src\app\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="parser_factory.h">
+      <Filter>src\app\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="option_parser.h">
+      <Filter>src\app\parser\option_reader</Filter>
+    </ClInclude>
+    <ClInclude Include="parser_console.h">
+      <Filter>src\app\parser\parser_console</Filter>
+    </ClInclude>
+    <ClInclude Include="parser_file.h">
+      <Filter>src\app\parser\parser_file</Filter>
+    </ClInclude>
+    <ClInclude Include="file_stream_raii.h">
+      <Filter>src\app\parser\parser_file</Filter>
+    </ClInclude>
+    <ClInclude Include="disjoint_set.h">
+      <Filter>src\app\algotihm</Filter>
+    </ClInclude>
+    <ClInclude Include="graph.h">
+      <Filter>src\app\algotihm</Filter>
+    </ClInclude>
+    <ClInclude Include="spanning_tree.h">
+      <Filter>src\app\algotihm</Filter>
+    </ClInclude>
+    <ClInclude Include="topology.h">
+      <Filter>src\app\net</Filter>
+    </ClInclude>
+    <ClInclude Include="mediator.h">
+      <Filter>src\app\net</Filter>
+    </ClInclude>
+    <ClInclude Include="bridge.h">
+      <Filter>src\app\net\bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="bridges.h">
+      <Filter>src\app\net\bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="port.h">
+      <Filter>src\app\net\port</Filter>
+    </ClInclude>
+    <ClInclude Include="ports.h">
+      <Filter>src\app\net\port</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>src\app</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.cpp">
+      <Filter>src\app\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="parser_factory.cpp">
+      <Filter>src\app\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="option_parser.cpp">
+      <Filter>src\app\parser\option_reader</Filter>
+    </ClCompile>
+    <ClCompile Include="parser_console.cpp">
+      <Filter>src\app\parser\parser_console</Filter>
+    </ClCompile>
+    <ClCompile Include="parser_file.cpp">
+      <Filter>src\app\parser\parser_file</Filter>
+    </ClCompile>
+    <ClCompile Include="file_stream_raii.cpp">
+      <Filter>src\app\parser\parser_file</Filter>
+    </ClCompile>
+    <ClCompile Include="disjoint_set.cpp">
+      <Filter>src\app\algotihm</Filter>
+    </ClCompile>
+    <ClCompile Include="graph.cpp">
+      <Filter>src\app\algotihm</Filter>
+    </ClCompile>
+    <ClCompile Include="spanning_tree.cpp">
+      <Filter>src\app\algotihm</Filter>
+    </ClCompile>
+    <ClCompile Include="topology.cpp">
+      <Filter>src\app\net</Filter>
+    </ClCompile>
+    <ClCompile Include="mediator.cpp">
+      <Filter>src\app\net</Filter>
+    </ClCompile>
+    <ClCompile Include="bridge.cpp">
+      <Filter>src\app\net\bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="bridges.cpp">
+      <Filter>src\app\net\bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="port.cpp">
+      <Filter>src\app\net\port</Filter>
+    </ClCompile>
+    <ClCompile Include="ports.cpp">
+      <Filter>src\app\net\port</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

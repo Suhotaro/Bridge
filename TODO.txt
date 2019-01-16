@@ -1,0 +1,4 @@
+1. Add exception based error handling
+2. Bridges should have more smart parser. It should know wich parser it usese either console or file.
+3. Make class Ctontext or Tokens to check valid data of parsed data
+4. Add methode IsValid to eBridges to check if all configs are valid
